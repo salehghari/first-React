@@ -1,0 +1,103 @@
+body {
+  font-family: sans-serif;
+  background-color: #23252C;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.App {
+  display: flex;
+  justify-content: center;
+}
+.profileCard {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin-top: 4%;
+}
+.info {
+  background: #1A1B21;
+  width: 317px;
+  height: 399px;
+}
+.nameText {
+  font-size: 25px;
+  color: #fff;
+  margin: 21px 0 6px 0;
+}
+.professionText {
+  color: #F3BF99;
+  font-size: 12.8px;
+  font-weight: 400;
+  margin-bottom: 9px;
+}
+.websiteText {
+  color: #F5F5F5;
+  font-size: 10.24px;
+  font-weight: 400;
+  line-height: 15.36px;
+  margin-bottom: 15px;
+}
+.emailButton,
+.linkedInButton {
+  width: 115px;
+  Height: 34px;
+  box-shadow: 0px 1px 2px 0px #0000000D;
+  border-radius: 6px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+.emailButton {
+  background-color: #fff;
+  border: 1px solid #D1D5DB;
+}
+.linkedInButton {
+  background-color: #5093E2;
+  margin-left: 17px;
+  border: none;
+  color: #fff;
+}
+.emailIcon {
+  width: 12.8px;
+}
+.linkedInIcon,
+.emailIcon {
+  margin-right: 9.33px;
+}
+.moreInfo {
+  text-align: left;
+  margin: 33px 36px 0 36px;
+}
+.headerText {
+  font-weight: bold;
+  font-size: 16px;
+  color: #F5F5F5;
+  line-height: 150%;
+}
+.interestsText {
+  margin-top: 20px;
+}
+.description {
+  color: #DCDCDC;
+  font-size: 10.24px;
+  line-height: 150%;
+}
+.footer {
+  display: flex;
+  width: 317px;
+  height: 64px;
+  background-color: #161619;
+  border-radius: 0px 0px 10px 10px;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+  margin-top: 44px;
+}
+.socialIcons {
+  width: 25px;
+  cursor: pointer;
+}
